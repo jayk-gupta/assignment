@@ -27,7 +27,17 @@ const TradingLog: React.FC<TradingLogProps> = ({ selectedTrader }) => {
   if (!selectedTrader) {
     return <div>No trader selected.</div>;
   }
-
+  const formatDate = (isoString: string): string => {
+    const date = new Date(isoString);
+    return date.toLocaleString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true,
+    });
+  };
   return (
     <div className={styles.tradingLog}>
       <h2 className="text-xl font-semibold mb-4">{selectedTrader.username}</h2>
@@ -57,13 +67,13 @@ const TradingLog: React.FC<TradingLogProps> = ({ selectedTrader }) => {
             <li key={index} className={styles.tradePosition}>
               <ul className={styles.positionDetails}>
                 <li className={styles.positionRow}>
-                  <span className={styles.value}>{position.openTime}</span>
+                  <span className={styles.value}>{formatDate(position.openTime)}</span>
                   <span className={styles.value}>{position.symbol}</span>
                   <span className={styles.value}>{position.positionId}</span>
                   <span className={styles.value}>{position.type}</span>
                   <span className={styles.value}>{position.volume}</span>
                   <span className={styles.value}>{position.openPrice}</span>
-                  <span className={styles.value}>{position.closeTime}</span>
+                  <span className={styles.value}>{formatDate(position.closeTime)}</span>
                   <span className={styles.value}>{position.closePrice}</span>
                   <span className={styles.value}>{position.profit}</span>
                   <span className={styles.value}>{position.change}</span>

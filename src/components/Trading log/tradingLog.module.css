@@ -22,10 +22,10 @@
 
 /* Styling for the row of data */
 .positionRow {
-  @apply flex justify-between py-2;
+  @apply flex justify-between  py-2;
 }
 .positionRowHeading {
-  @apply justify-between flex gap-4 py-2;
+  @apply justify-between flex  py-2;
 }
 
 /* Label style for headers */
