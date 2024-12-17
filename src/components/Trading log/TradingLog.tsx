@@ -1,8 +1,26 @@
 import React from "react";
 import styles from "./tradingLog.module.css"; // Import the CSS Module
 
+// Define the type for a single Position
+interface Position {
+  openTime: string;
+  symbol: string;
+  positionId: string;
+  type: string;
+  volume: number;
+  openPrice: number;
+  closeTime: string;
+  closePrice: number;
+  profit: number;
+  change: number;
+}
+
+// Define the props for TradingLog
 interface TradingLogProps {
-  selectedTrader: any; // Trader data passed from App
+  selectedTrader: {
+    username: string;
+    positions: Position[];
+  } | null; // Trader data passed from App, nullable if no trader is selected
 }
 
 const TradingLog: React.FC<TradingLogProps> = ({ selectedTrader }) => {
@@ -12,9 +30,7 @@ const TradingLog: React.FC<TradingLogProps> = ({ selectedTrader }) => {
 
   return (
     <div className={styles.tradingLog}>
-      <h2 className="text-xl font-semibold mb-4">
-       {selectedTrader.username}
-      </h2>
+      <h2 className="text-xl font-semibold mb-4">{selectedTrader.username}</h2>
       <div>
         {/* Table-like structure using ul and li */}
         <ul className="list-none p-0 m-0">
@@ -37,7 +53,7 @@ const TradingLog: React.FC<TradingLogProps> = ({ selectedTrader }) => {
           </li>
 
           {/* Mapping through positions array */}
-          {selectedTrader.positions.map((position, index) => (
+          {selectedTrader.positions.map((position: Position, index: number) => (
             <li key={index} className={styles.tradePosition}>
               <ul className={styles.positionDetails}>
                 <li className={styles.positionRow}>
