@@ -1,5 +1,10 @@
-# Project Setup
+# Technologies Used
+ 1. React js
+ 2. Tailwind CSS
+ 3. Typescript
+ 4. Vite (Build tool)
 
+# Project Setup
 
 ## Prerequisites
 
