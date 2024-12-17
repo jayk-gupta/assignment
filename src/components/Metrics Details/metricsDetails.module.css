@@ -1,0 +1,25 @@
+/* tradingLog.module.css */
+.metrics{
+   @apply flex flex-col gap-2 md:flex-row md:grid lg:grid-cols-3 md:grid-cols-3 xl:flex-col xl:flex 
+}
+/* Container for the trader log */
+.metricsDetails{
+  @apply p-6 bg-white shadow-lg rounded-lg  md:w-full md:pb-16  lg:w-4/5 ;
+}
+
+/* Styling for the metric rows */
+.metricRow {
+  @apply flex flex-col justify-between py-2 border-b border-gray-200 md:gap-2;
+}
+
+/* Title for each metric */
+.metricTitle {
+  @apply font-semibold
+
+}
+
+/* Value for each metric */
+.metricValue {
+  @apply text-base
+
+}

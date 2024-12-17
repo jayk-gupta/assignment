@@ -1,0 +1,64 @@
+{
+    "leaderboard": [
+        {
+            "rank": 1,
+            "name": "Ishaq m.",
+            "returnPercentage": "3.67%",
+            "profit": "$366.65"
+        },
+        {
+            "rank": 2,
+            "name": "Gian Delfino T.",
+            "returnPercentage": "1.07%",
+            "profit": "$537.34"
+        },
+        {
+            "rank": 3,
+            "name": "Gaetano S.",
+            "returnPercentage": "1.03%",
+            "profit": "$515.57"
+        },
+        {
+            "rank": 4,
+            "name": "Guido V.",
+            "returnPercentage": "1.01%",
+            "profit": "$503.94"
+        },
+        {
+            "rank": 5,
+            "name": "Timo K.",
+            "returnPercentage": "0.96%",
+            "profit": "$1,928.56"
+        },
+        {
+            "rank": 6,
+            "name": "Coste R.",
+            "returnPercentage": "0.92%",
+            "profit": "$924.24"
+        },
+        {
+            "rank": 7,
+            "name": "Jessica U.",
+            "returnPercentage": "0.85%",
+            "profit": "$425.68"
+        },
+        {
+            "rank": 8,
+            "name": "Yash B.",
+            "returnPercentage": "0.68%",
+            "profit": "$340.50"
+        },
+        {
+            "rank": 9,
+            "name": "Mario P.",
+            "returnPercentage": "0.33%",
+            "profit": "$166.80"
+        },
+        {
+            "rank": 10,
+            "name": "efrem b.",
+            "returnPercentage": "0.31%",
+            "profit": "$153.60"
+        }
+    ]
+}

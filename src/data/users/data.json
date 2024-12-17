@@ -1,0 +1,834 @@
+{
+    "users": [
+        {
+            "rank": 1,
+            "username": "Ishaq.m",
+            "metrics": {
+                "startingBalance": 25000,
+                "currentEquity": 25300,
+                "currentBalance": 25300,
+                "cumulativePnL": 4500,
+                "return": 1.31,
+                "activeDays": 2,
+                "averageWinningTrade": 338.54,
+                "profitFactor": 1.67,
+                "tradesPlaced": 9
+            },
+            "positions": [
+                {
+                    "openTime": "2024-12-10T00:05:15",
+                    "symbol": "NAS100",
+                    "positionId": "576460752304748910",
+                    "type": "BUY",
+                    "volume": 0.04,
+                    "openPrice": 21500.85,
+                    "closeTime": "2024-12-10T00:09:03",
+                    "closePrice": 21513.55,
+                    "profit": 50.52,
+                    "change": "0.05%"
+                },
+                {
+                    "openTime": "2024-12-10T20:20:14",
+                    "symbol": "NAS100",
+                    "positionId": "576460752304760710",
+                    "type": "SELL",
+                    "volume": 0.02,
+                    "openPrice": 21546.55,
+                    "closeTime": "2024-12-10T20:22:35",
+                    "closePrice": 21524.35,
+                    "profit": 44.40,
+                    "change": "0.1%"
+                },
+                {
+                    "openTime": "2024-12-11T19:21:46",
+                    "symbol": "NAS100",
+                    "positionId": "576460752304775303",
+                    "type": "SELL",
+                    "volume": 0.02,
+                    "openPrice": 21495.55,
+                    "closeTime": "2024-12-11T19:30:50",
+                    "closePrice": 21519.05,
+                    "profit": -47.00,
+                    "change": "-0.1%"
+                },
+                {
+                    "openTime": "2024-12-11T20:17:19",
+                    "symbol": "NAS100",
+                    "positionId": "576460752304777079",
+                    "type": "BUY",
+                    "volume": 0.02,
+                    "openPrice": 21643.85,
+                    "closeTime": "2024-12-11T20:25:51",
+                    "closePrice": 21660.85,
+                    "profit": 34.00,
+                    "change": "0.07%"
+                },
+                {
+                    "openTime": "2024-12-12T00:36:06",
+                    "symbol": "NAS100",
+                    "positionId": "576460752304781762",
+                    "type": "SELL",
+                    "volume": 0.02,
+                    "openPrice": 21766.95,
+                    "closeTime": "2024-12-12T01:03:40",
+                    "closePrice": 21786.05,
+                    "profit": -38.20,
+                    "change": "-0.08%"
+                },
+                {
+                    "openTime": "2024-12-12T01:04:08",
+                    "symbol": "NAS100",
+                    "positionId": "576460752304782069",
+                    "type": "BUY",
+                    "volume": 0.03,
+                    "openPrice": 21784.65,
+                    "closeTime": "2024-12-12T01:17:37",
+                    "closePrice": 21776.25,
+                    "profit": -25.20,
+                    "change": "-0.03%"
+                },
+                {
+                    "openTime": "2024-12-12T20:20:21",
+                    "symbol": "NAS100",
+                    "positionId": "576460752304792430",
+                    "type": "SELL",
+                    "volume": 0.03,
+                    "openPrice": 21646.95,
+                    "closeTime": "2024-12-12T20:43:07",
+                    "closePrice": 21615.85,
+                    "profit": 93.30,
+                    "change": "0.14%"
+                },
+                {
+                    "openTime": "2024-12-13T20:18:43",
+                    "symbol": "NAS100",
+                    "positionId": "576460752304807458",
+                    "type": "BUY",
+                    "volume": 0.03,
+                    "openPrice": 21929.55,
+                    "closeTime": "2024-12-13T20:23:06",
+                    "closePrice": 21904.40,
+                    "profit": -75.45,
+                    "change": "-0.11%"
+                },
+                {
+                    "openTime": "2024-12-13T20:25:15",
+                    "symbol": "NAS100",
+                    "positionId": "576460752304807764",
+                    "type": "SELL",
+                    "volume": 0.03,
+                    "openPrice": 21894.05,
+                    "closeTime": "2024-12-13T20:38:01",
+                    "closePrice": 21859.65,
+                    "profit": 103.20,
+                    "change": "0.15%"
+                },
+                {
+                    "openTime": "2024-12-13T21:07:19",
+                    "symbol": "NAS100",
+                    "positionId": "576460752304808957",
+                    "type": "SELL",
+                    "volume": 0.03,
+                    "openPrice": 21834.25,
+                    "closeTime": "2024-12-13T21:11:29",
+                    "closePrice": 21784.25,
+                    "profit": 150.00,
+                    "change": "0.22%"
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "username": "Gian Delfino T.",
+            "metrics": {
+                "startingBalance": 10000,
+                "currentEquity": 15000,
+                "currentBalance": 14500,
+                "cumulativePnL": 4500,
+                "return": 45.0,
+                "activeDays": 30,
+                "averageWinningTrade": 350,
+                "profitFactor": 2.5,
+                "tradesPlaced": 50
+            },
+            "positions": [
+                {
+                    "openTime": "2024-12-13T15:53:25",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803872",
+                    "type": "BUY",
+                    "volume": 1.48,
+                    "openPrice": 1.04932,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$330.04",
+                    "change": "0.21%"
+                },
+                {
+                    "openTime": "2024-12-13T14:49:40",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803480",
+                    "type": "BUY",
+                    "volume": 0.74,
+                    "openPrice": 1.0472,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$321.90",
+                    "change": "0.41%"
+                },
+                {
+                    "openTime": "2024-12-13T13:44:42",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803021",
+                    "type": "BUY",
+                    "volume": 0.81,
+                    "openPrice": 1.04706,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$363.69",
+                    "change": "0.42%"
+                },
+                {
+                    "openTime": "2024-12-12T19:19:41",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790260",
+                    "type": "BUY",
+                    "volume": 0.73,
+                    "openPrice": 1.0499,
+                    "closeTime": "2024-12-12T19:28:45",
+                    "closePrice": 1.04818,
+                    "profit": "-$125.56",
+                    "change": "-0.16%"
+                },
+                {
+                    "openTime": "2024-12-12T19:13:28",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790127",
+                    "type": "BUY",
+                    "volume": 0.63,
+                    "openPrice": 1.04974,
+                    "closeTime": "2024-12-12T19:28:29",
+                    "closePrice": 1.04824,
+                    "profit": "-$94.50",
+                    "change": "-0.14%"
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "username": "Alan A.",
+            "metrics": {
+                "startingBalance": 10000,
+                "currentEquity": 15000,
+                "currentBalance": 14500,
+                "cumulativePnL": 4500,
+                "return": 45.0,
+                "activeDays": 30,
+                "averageWinningTrade": 350,
+                "profitFactor": 2.5,
+                "tradesPlaced": 50
+            },
+            "positions": [
+                {
+                    "openTime": "2024-12-13T15:53:25",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803872",
+                    "type": "BUY",
+                    "volume": 1.48,
+                    "openPrice": 1.04932,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$330.04",
+                    "change": "0.21%"
+                },
+                {
+                    "openTime": "2024-12-13T14:49:40",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803480",
+                    "type": "BUY",
+                    "volume": 0.74,
+                    "openPrice": 1.0472,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$321.90",
+                    "change": "0.41%"
+                },
+                {
+                    "openTime": "2024-12-13T13:44:42",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803021",
+                    "type": "BUY",
+                    "volume": 0.81,
+                    "openPrice": 1.04706,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$363.69",
+                    "change": "0.42%"
+                },
+                {
+                    "openTime": "2024-12-12T19:19:41",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790260",
+                    "type": "BUY",
+                    "volume": 0.73,
+                    "openPrice": 1.0499,
+                    "closeTime": "2024-12-12T19:28:45",
+                    "closePrice": 1.04818,
+                    "profit": "-$125.56",
+                    "change": "-0.16%"
+                },
+                {
+                    "openTime": "2024-12-12T19:13:28",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790127",
+                    "type": "BUY",
+                    "volume": 0.63,
+                    "openPrice": 1.04974,
+                    "closeTime": "2024-12-12T19:28:29",
+                    "closePrice": 1.04824,
+                    "profit": "-$94.50",
+                    "change": "-0.14%"
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "username": "Matteo V",
+            "metrics": {
+                "startingBalance": 10000,
+                "currentEquity": 15000,
+                "currentBalance": 14500,
+                "cumulativePnL": 4500,
+                "return": 45.0,
+                "activeDays": 30,
+                "averageWinningTrade": 350,
+                "profitFactor": 2.5,
+                "tradesPlaced": 50
+            },
+            "positions": [
+                {
+                    "openTime": "2024-12-13T15:53:25",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803872",
+                    "type": "BUY",
+                    "volume": 1.48,
+                    "openPrice": 1.04932,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$330.04",
+                    "change": "0.21%"
+                },
+                {
+                    "openTime": "2024-12-13T14:49:40",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803480",
+                    "type": "BUY",
+                    "volume": 0.74,
+                    "openPrice": 1.0472,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$321.90",
+                    "change": "0.41%"
+                },
+                {
+                    "openTime": "2024-12-13T13:44:42",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803021",
+                    "type": "BUY",
+                    "volume": 0.81,
+                    "openPrice": 1.04706,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$363.69",
+                    "change": "0.42%"
+                },
+                {
+                    "openTime": "2024-12-12T19:19:41",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790260",
+                    "type": "BUY",
+                    "volume": 0.73,
+                    "openPrice": 1.0499,
+                    "closeTime": "2024-12-12T19:28:45",
+                    "closePrice": 1.04818,
+                    "profit": "-$125.56",
+                    "change": "-0.16%"
+                },
+                {
+                    "openTime": "2024-12-12T19:13:28",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790127",
+                    "type": "BUY",
+                    "volume": 0.63,
+                    "openPrice": 1.04974,
+                    "closeTime": "2024-12-12T19:28:29",
+                    "closePrice": 1.04824,
+                    "profit": "-$94.50",
+                    "change": "-0.14%"
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "username": "Yash B.",
+            "metrics": {
+                "startingBalance": 10000,
+                "currentEquity": 15000,
+                "currentBalance": 14500,
+                "cumulativePnL": 4500,
+                "return": 45.0,
+                "activeDays": 30,
+                "averageWinningTrade": 350,
+                "profitFactor": 2.5,
+                "tradesPlaced": 50
+            },
+            "positions": [
+                {
+                    "openTime": "2024-12-13T15:53:25",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803872",
+                    "type": "BUY",
+                    "volume": 1.48,
+                    "openPrice": 1.04932,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$330.04",
+                    "change": "0.21%"
+                },
+                {
+                    "openTime": "2024-12-13T14:49:40",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803480",
+                    "type": "BUY",
+                    "volume": 0.74,
+                    "openPrice": 1.0472,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$321.90",
+                    "change": "0.41%"
+                },
+                {
+                    "openTime": "2024-12-13T13:44:42",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803021",
+                    "type": "BUY",
+                    "volume": 0.81,
+                    "openPrice": 1.04706,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$363.69",
+                    "change": "0.42%"
+                },
+                {
+                    "openTime": "2024-12-12T19:19:41",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790260",
+                    "type": "BUY",
+                    "volume": 0.73,
+                    "openPrice": 1.0499,
+                    "closeTime": "2024-12-12T19:28:45",
+                    "closePrice": 1.04818,
+                    "profit": "-$125.56",
+                    "change": "-0.16%"
+                },
+                {
+                    "openTime": "2024-12-12T19:13:28",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790127",
+                    "type": "BUY",
+                    "volume": 0.63,
+                    "openPrice": 1.04974,
+                    "closeTime": "2024-12-12T19:28:29",
+                    "closePrice": 1.04824,
+                    "profit": "-$94.50",
+                    "change": "-0.14%"
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "username": "Timo K",
+            "metrics": {
+                "startingBalance": 10000,
+                "currentEquity": 15000,
+                "currentBalance": 14500,
+                "cumulativePnL": 4500,
+                "return": 45.0,
+                "activeDays": 30,
+                "averageWinningTrade": 350,
+                "profitFactor": 2.5,
+                "tradesPlaced": 50
+            },
+            "positions": [
+                {
+                    "openTime": "2024-12-13T15:53:25",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803872",
+                    "type": "BUY",
+                    "volume": 1.48,
+                    "openPrice": 1.04932,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$330.04",
+                    "change": "0.21%"
+                },
+                {
+                    "openTime": "2024-12-13T14:49:40",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803480",
+                    "type": "BUY",
+                    "volume": 0.74,
+                    "openPrice": 1.0472,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$321.90",
+                    "change": "0.41%"
+                },
+                {
+                    "openTime": "2024-12-13T13:44:42",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803021",
+                    "type": "BUY",
+                    "volume": 0.81,
+                    "openPrice": 1.04706,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$363.69",
+                    "change": "0.42%"
+                },
+                {
+                    "openTime": "2024-12-12T19:19:41",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790260",
+                    "type": "BUY",
+                    "volume": 0.73,
+                    "openPrice": 1.0499,
+                    "closeTime": "2024-12-12T19:28:45",
+                    "closePrice": 1.04818,
+                    "profit": "-$125.56",
+                    "change": "-0.16%"
+                },
+                {
+                    "openTime": "2024-12-12T19:13:28",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790127",
+                    "type": "BUY",
+                    "volume": 0.63,
+                    "openPrice": 1.04974,
+                    "closeTime": "2024-12-12T19:28:29",
+                    "closePrice": 1.04824,
+                    "profit": "-$94.50",
+                    "change": "-0.14%"
+                }
+            ]
+        },
+        {
+            "rank": 7,
+            "username": "Yasmin B.",
+            "metrics": {
+                "startingBalance": 10000,
+                "currentEquity": 15000,
+                "currentBalance": 14500,
+                "cumulativePnL": 4500,
+                "return": 45.0,
+                "activeDays": 30,
+                "averageWinningTrade": 350,
+                "profitFactor": 2.5,
+                "tradesPlaced": 50
+            },
+            "positions": [
+                {
+                    "openTime": "2024-12-13T15:53:25",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803872",
+                    "type": "BUY",
+                    "volume": 1.48,
+                    "openPrice": 1.04932,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$330.04",
+                    "change": "0.21%"
+                },
+                {
+                    "openTime": "2024-12-13T14:49:40",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803480",
+                    "type": "BUY",
+                    "volume": 0.74,
+                    "openPrice": 1.0472,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$321.90",
+                    "change": "0.41%"
+                },
+                {
+                    "openTime": "2024-12-13T13:44:42",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803021",
+                    "type": "BUY",
+                    "volume": 0.81,
+                    "openPrice": 1.04706,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$363.69",
+                    "change": "0.42%"
+                },
+                {
+                    "openTime": "2024-12-12T19:19:41",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790260",
+                    "type": "BUY",
+                    "volume": 0.73,
+                    "openPrice": 1.0499,
+                    "closeTime": "2024-12-12T19:28:45",
+                    "closePrice": 1.04818,
+                    "profit": "-$125.56",
+                    "change": "-0.16%"
+                },
+                {
+                    "openTime": "2024-12-12T19:13:28",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790127",
+                    "type": "BUY",
+                    "volume": 0.63,
+                    "openPrice": 1.04974,
+                    "closeTime": "2024-12-12T19:28:29",
+                    "closePrice": 1.04824,
+                    "profit": "-$94.50",
+                    "change": "-0.14%"
+                }
+            ]
+        },
+        {
+            "rank": 8,
+            "username": "Mira K",
+            "metrics": {
+                "startingBalance": 10000,
+                "currentEquity": 15000,
+                "currentBalance": 14500,
+                "cumulativePnL": 4500,
+                "return": 45.0,
+                "activeDays": 30,
+                "averageWinningTrade": 350,
+                "profitFactor": 2.5,
+                "tradesPlaced": 50
+            },
+            "positions": [
+                {
+                    "openTime": "2024-12-13T15:53:25",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803872",
+                    "type": "BUY",
+                    "volume": 1.48,
+                    "openPrice": 1.04932,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$330.04",
+                    "change": "0.21%"
+                },
+                {
+                    "openTime": "2024-12-13T14:49:40",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803480",
+                    "type": "BUY",
+                    "volume": 0.74,
+                    "openPrice": 1.0472,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$321.90",
+                    "change": "0.41%"
+                },
+                {
+                    "openTime": "2024-12-13T13:44:42",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803021",
+                    "type": "BUY",
+                    "volume": 0.81,
+                    "openPrice": 1.04706,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$363.69",
+                    "change": "0.42%"
+                },
+                {
+                    "openTime": "2024-12-12T19:19:41",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790260",
+                    "type": "BUY",
+                    "volume": 0.73,
+                    "openPrice": 1.0499,
+                    "closeTime": "2024-12-12T19:28:45",
+                    "closePrice": 1.04818,
+                    "profit": "-$125.56",
+                    "change": "-0.16%"
+                },
+                {
+                    "openTime": "2024-12-12T19:13:28",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790127",
+                    "type": "BUY",
+                    "volume": 0.63,
+                    "openPrice": 1.04974,
+                    "closeTime": "2024-12-12T19:28:29",
+                    "closePrice": 1.04824,
+                    "profit": "-$94.50",
+                    "change": "-0.14%"
+                }
+            ]
+        },
+        {
+            "rank": 9,
+            "username": "Coste R.",
+            "metrics": {
+                "startingBalance": 10000,
+                "currentEquity": 15000,
+                "currentBalance": 14500,
+                "cumulativePnL": 4500,
+                "return": 45.0,
+                "activeDays": 30,
+                "averageWinningTrade": 350,
+                "profitFactor": 2.5,
+                "tradesPlaced": 50
+            },
+            "positions": [
+                {
+                    "openTime": "2024-12-13T15:53:25",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803872",
+                    "type": "BUY",
+                    "volume": 1.48,
+                    "openPrice": 1.04932,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$330.04",
+                    "change": "0.21%"
+                },
+                {
+                    "openTime": "2024-12-13T14:49:40",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803480",
+                    "type": "BUY",
+                    "volume": 0.74,
+                    "openPrice": 1.0472,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$321.90",
+                    "change": "0.41%"
+                },
+                {
+                    "openTime": "2024-12-13T13:44:42",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803021",
+                    "type": "BUY",
+                    "volume": 0.81,
+                    "openPrice": 1.04706,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$363.69",
+                    "change": "0.42%"
+                },
+                {
+                    "openTime": "2024-12-12T19:19:41",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790260",
+                    "type": "BUY",
+                    "volume": 0.73,
+                    "openPrice": 1.0499,
+                    "closeTime": "2024-12-12T19:28:45",
+                    "closePrice": 1.04818,
+                    "profit": "-$125.56",
+                    "change": "-0.16%"
+                },
+                {
+                    "openTime": "2024-12-12T19:13:28",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790127",
+                    "type": "BUY",
+                    "volume": 0.63,
+                    "openPrice": 1.04974,
+                    "closeTime": "2024-12-12T19:28:29",
+                    "closePrice": 1.04824,
+                    "profit": "-$94.50",
+                    "change": "-0.14%"
+                }
+            ]
+        },
+        {
+            "rank": 10,
+            "username": "Guido V.",
+            "metrics": {
+                "startingBalance": 10000,
+                "currentEquity": 15000,
+                "currentBalance": 14500,
+                "cumulativePnL": 4500,
+                "return": 45.0,
+                "activeDays": 30,
+                "averageWinningTrade": 350,
+                "profitFactor": 2.5,
+                "tradesPlaced": 50
+            },
+            "positions": [
+                {
+                    "openTime": "2024-12-13T15:53:25",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803872",
+                    "type": "BUY",
+                    "volume": 1.48,
+                    "openPrice": 1.04932,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$330.04",
+                    "change": "0.21%"
+                },
+                {
+                    "openTime": "2024-12-13T14:49:40",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803480",
+                    "type": "BUY",
+                    "volume": 0.74,
+                    "openPrice": 1.0472,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$321.90",
+                    "change": "0.41%"
+                },
+                {
+                    "openTime": "2024-12-13T13:44:42",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304803021",
+                    "type": "BUY",
+                    "volume": 0.81,
+                    "openPrice": 1.04706,
+                    "closeTime": "2024-12-13T19:22:57",
+                    "closePrice": 1.05155,
+                    "profit": "$363.69",
+                    "change": "0.42%"
+                },
+                {
+                    "openTime": "2024-12-12T19:19:41",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790260",
+                    "type": "BUY",
+                    "volume": 0.73,
+                    "openPrice": 1.0499,
+                    "closeTime": "2024-12-12T19:28:45",
+                    "closePrice": 1.04818,
+                    "profit": "-$125.56",
+                    "change": "-0.16%"
+                },
+                {
+                    "openTime": "2024-12-12T19:13:28",
+                    "symbol": "EURUSD",
+                    "positionId": "#576460752304790127",
+                    "type": "BUY",
+                    "volume": 0.63,
+                    "openPrice": 1.04974,
+                    "closeTime": "2024-12-12T19:28:29",
+                    "closePrice": 1.04824,
+                    "profit": "-$94.50",
+                    "change": "-0.14%"
+                }
+            ]
+        }
+    ]
+}

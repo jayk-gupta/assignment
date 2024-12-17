@@ -1,0 +1,20 @@
+.leaderboard {
+  @apply bg-white font-sans p-4 rounded-lg shadow-sm text-base border-2  md:w-full lg:w-1/2;
+}
+
+.list {
+  @apply list-none p-0 m-0 border  rounded-md;
+}
+
+.listItem {
+  @apply grid grid-cols-4 gap-4 p-4 border-b border-gray-200 hover:bg-blue-50 cursor-pointer;
+}
+
+.listItem:last-child {
+  @apply border-b-0;
+}
+
+.header {
+  @apply bg-blue-100 font-bold hover:bg-blue-100  rounded-t-md ;
+}
+
