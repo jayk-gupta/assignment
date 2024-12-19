@@ -96,7 +96,13 @@ const TradingLog: React.FC<TradingLogProps> = ({ selectedTrader }) => {
                   <span className={`${styles.value} ${styles.positionId}`}>
                     {position.positionId}
                   </span>
-                  <span className={`${styles.value} ${styles.type}`}>
+                  <span
+                    className={`${styles.value} ${styles.type} `
+                  }
+                    style={{
+                      color: position.type === "BUY" ? "green" : "red",
+                    }}
+                  >
                     {position.type}
                   </span>
                   <span className={`${styles.value} ${styles.volume}`}>
