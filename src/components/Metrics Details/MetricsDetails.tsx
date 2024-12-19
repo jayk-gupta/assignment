@@ -33,9 +33,9 @@ const MetricsDetails: React.FC<TradingLogProps> = ({ selectedTrader }) => {
         <h2 className="text-2xl font-semibold mb-4">
           {selectedTrader.username} -Performance
         </h2>
-        <div className="flex gap-4 md:flex-col lg:flex-col xl:flex-row sm:flex-col flex-col">
-          <div className="mb-6  bg-blue-50 p-4 rounded-lg shadow-lg md:w-full md:text-base xl:w-1/4 ">
-            {/* Table-like structure using ul and li */}
+        <div className={styles.flexLayout}>
+          <div className={styles.metricsContainer}>
+            {/* Metrics details */}
             <ul className={styles.metrics}>
               {metricData.map((metric, index) => (
                 <li key={index} className={styles.metricRow}>
@@ -45,7 +45,7 @@ const MetricsDetails: React.FC<TradingLogProps> = ({ selectedTrader }) => {
               ))}
             </ul>
           </div>
-
+          {/* Equity Chart */}
           <EquityChart />
         </div>
       </div>

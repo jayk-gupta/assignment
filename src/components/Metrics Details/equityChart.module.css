@@ -1,0 +1,7 @@
+.container{
+    @apply w-full lg:h-[700px] md:h-[500px] sm:h-[400px] sm:pb-12 h-[400px] pb-12
+}
+
+.title{
+    @apply text-xl font-semibold mb-4 text-center
+}

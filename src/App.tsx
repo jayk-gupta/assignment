@@ -19,9 +19,9 @@ function App() {
   
   return (
     <div className={styles.container}>
-      <h1 className="text-4xl mb-10">FunderPro Leaderboard</h1>
-      <main className="flex flex-col gap-12">
-        <div className="flex flex-col justify-between gap-12 md:flex-col lg:flex-row sm:flex-col ">
+      <h1 className={styles.title }>FunderPro Leaderboard</h1>
+      <main className={styles.main }>
+        <div className={styles.flexLayout}>
           <LeaderBoard onTraderSelect={handleTraderSelect} />
           <MetricsDetails selectedTrader={selectedTrader} />
         </div>
