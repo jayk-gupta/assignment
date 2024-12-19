@@ -27,6 +27,7 @@ const TradingLog: React.FC<TradingLogProps> = ({ selectedTrader }) => {
   if (!selectedTrader) {
     return <div>No trader selected.</div>;
   }
+
   const formatDate = (isoString: string): string => {
     const date = new Date(isoString);
     return date.toLocaleString("en-US", {
@@ -38,6 +39,7 @@ const TradingLog: React.FC<TradingLogProps> = ({ selectedTrader }) => {
       hour12: true,
     });
   };
+
   return (
     <div className={styles.tradingLog}>
       <h2 className="text-xl font-semibold mb-4">{selectedTrader.username}</h2>
@@ -48,16 +50,34 @@ const TradingLog: React.FC<TradingLogProps> = ({ selectedTrader }) => {
           <li className={styles.columnHeaders}>
             <ul className={styles.positionDetails}>
               <li className={styles.positionRowHeading}>
-                <span className={styles.label}>Open Time</span>
-                <span className={styles.label}>Symbol</span>
-                <span className={styles.label}>Position ID</span>
-                <span className={styles.label}>Type</span>
-                <span className={styles.label}>Volume</span>
-                <span className={styles.label}>Open Price</span>
-                <span className={styles.label}>Close Time</span>
-                <span className={styles.label}>Close Price</span>
-                <span className={styles.label}>Profit</span>
-                <span className={styles.label}>Change</span>
+                <span className={`${styles.label} ${styles.openTime}`}>
+                  Open Time
+                </span>
+                <span className={`${styles.label} ${styles.symbol}`}>
+                  Symbol
+                </span>
+                <span className={`${styles.label} ${styles.positionId}`}>
+                  Position ID
+                </span>
+                <span className={`${styles.label} ${styles.type}`}>Type</span>
+                <span className={`${styles.label} ${styles.volume}`}>
+                  Volume
+                </span>
+                <span className={`${styles.label} ${styles.openPrice}`}>
+                  Open Price
+                </span>
+                <span className={`${styles.label} ${styles.closeTime}`}>
+                  Close Time
+                </span>
+                <span className={`${styles.label} ${styles.closePrice}`}>
+                  Close Price
+                </span>
+                <span className={`${styles.label} ${styles.profit}`}>
+                  Profit
+                </span>
+                <span className={`${styles.label} ${styles.change}`}>
+                  Change
+                </span>
               </li>
             </ul>
           </li>
@@ -67,16 +87,36 @@ const TradingLog: React.FC<TradingLogProps> = ({ selectedTrader }) => {
             <li key={index} className={styles.tradePosition}>
               <ul className={styles.positionDetails}>
                 <li className={styles.positionRow}>
-                  <span className={styles.value}>{formatDate(position.openTime)}</span>
-                  <span className={styles.value}>{position.symbol}</span>
-                  <span className={styles.value}>{position.positionId}</span>
-                  <span className={styles.value}>{position.type}</span>
-                  <span className={styles.value}>{position.volume}</span>
-                  <span className={styles.value}>{position.openPrice}</span>
-                  <span className={styles.value}>{formatDate(position.closeTime)}</span>
-                  <span className={styles.value}>{position.closePrice}</span>
-                  <span className={styles.value}>{position.profit}</span>
-                  <span className={styles.value}>{position.change}</span>
+                  <span className={`${styles.value} ${styles.openTime}`}>
+                    {formatDate(position.openTime)}
+                  </span>
+                  <span className={`${styles.value} ${styles.symbol}`}>
+                    {position.symbol}
+                  </span>
+                  <span className={`${styles.value} ${styles.positionId}`}>
+                    {position.positionId}
+                  </span>
+                  <span className={`${styles.value} ${styles.type}`}>
+                    {position.type}
+                  </span>
+                  <span className={`${styles.value} ${styles.volume}`}>
+                    {position.volume}
+                  </span>
+                  <span className={`${styles.value} ${styles.openPrice}`}>
+                    {position.openPrice}
+                  </span>
+                  <span className={`${styles.value} ${styles.closeTime}`}>
+                    {formatDate(position.closeTime)}
+                  </span>
+                  <span className={`${styles.value} ${styles.closePrice}`}>
+                    {position.closePrice}
+                  </span>
+                  <span className={`${styles.value} ${styles.profit}`}>
+                    {position.profit}
+                  </span>
+                  <span className={`${styles.value} ${styles.change}`}>
+                    {position.change}
+                  </span>
                 </li>
               </ul>
             </li>

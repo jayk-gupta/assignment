@@ -2,12 +2,12 @@
 
 /* Container for the entire log */
 .tradingLog {
-  @apply p-4 bg-white shadow-lg rounded-lg;
+  @apply p-4 bg-white shadow-lg rounded-lg w-full;
 }
 
 /* Styling for the column headers */
 .columnHeaders {
-  @apply mb-2 text-gray-700 font-semibold border-b-2 border-gray-300;
+  @apply mb-2 text-gray-700 font-semibold  border-gray-300;
 }
 
 /* Styling for each position (row) */
@@ -22,18 +22,47 @@
 
 /* Styling for the row of data */
 .positionRow {
-  @apply flex justify-between  py-2;
+  @apply flex   py-2;
 }
 .positionRowHeading {
-  @apply justify-between flex  py-2;
+  @apply  flex  py-2;
 }
 
 /* Label style for headers */
 .label {
-  @apply font-bold text-gray-700 relative 
+  @apply font-bold text-gray-700 relative  w-40 border-l-2 border-gray-300 bg-gray-100 p-2
 
 }
-
+.openTime{
+  @apply w-64
+}
+.symbol{
+  @apply w-32 pl-2 
+}
+.type{
+@apply w-32 pl-2
+}
+.positionId{
+  @apply w-64 pl-2
+}
+.openPrice{
+@apply w-32 pl-2
+}
+.closeTime{
+  @apply w-32 pl-2
+}
+.volume{
+  @apply w-64 pl-2
+}
+.closePrice{
+  @apply w-64 pl-2
+}
+.profit{
+  @apply w-64 pl-2
+}
+.change{
+    @apply w-64 pl-2
+}
 /* Value style for position data */
 .value {
   @apply text-gray-600 
