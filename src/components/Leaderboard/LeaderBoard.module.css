@@ -1,5 +1,5 @@
 .leaderboard {
-  @apply bg-white font-sans p-4 rounded-lg shadow-sm text-base border-2  md:w-full lg:w-1/2;
+  @apply bg-white font-sans p-4 rounded-lg shadow-sm text-base border-2  md:w-full lg:w-1/2 ;
 }
 
 .list {

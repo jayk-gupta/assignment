@@ -20,7 +20,7 @@ const data = [
 
 const EquityChart = () => {
   return (
-    <div className="w-full h-[700px] md:h-[500px] sm:h-[400px] sm:pb-12">
+    <div className="w-full lg:h-[700px] md:h-[500px] sm:h-[400px] sm:pb-12 h-[400px] pb-12">
       <h2 className="text-xl font-semibold mb-4 text-center">Equity Chart</h2>
       <ResponsiveContainer width="100%" height="100%">
         <AreaChart

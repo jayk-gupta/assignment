@@ -9,7 +9,8 @@
 
 /* Styling for the metric rows */
 .metricRow {
-  @apply flex flex-col justify-between py-2 border-b border-gray-200 md:gap-2;
+  @apply py-1 flex flex-col justify-between  border-b border-gray-200 
+  sm:py-2 md:gap-2;
 }
 
 /* Title for each metric */

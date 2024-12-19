@@ -2,7 +2,9 @@
 
 /* Container for the entire log */
 .tradingLog {
-  @apply p-4 bg-white shadow-lg rounded-lg w-full font-semibold;
+  @apply p-4 bg-white shadow-lg rounded-lg w-full font-semibold
+  overflow-scroll text-sm sm:text-base
+  ;
 }
 
 /* Styling for the column headers */
