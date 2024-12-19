@@ -21,7 +21,7 @@ function App() {
     <div className={styles.container}>
       <h1 className="text-4xl mb-10">FunderPro Leaderboard</h1>
       <main className="flex flex-col gap-12">
-        <div className="flex justify-between gap-12 md:flex-col lg:flex-row">
+        <div className="flex justify-between gap-12 md:flex-col lg:flex-row sm:flex-col">
           <LeaderBoard onTraderSelect={handleTraderSelect} />
           <MetricsDetails selectedTrader={selectedTrader}/>
         </div>

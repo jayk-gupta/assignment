@@ -33,7 +33,7 @@ const MetricsDetails: React.FC<TradingLogProps> = ({ selectedTrader }) => {
         <h2 className="text-2xl font-semibold mb-4">
           {selectedTrader.username} -Performance
         </h2>
-        <div className="flex gap-4 md:flex-col lg:flex-col xl:flex-row">
+        <div className="flex gap-4 md:flex-col lg:flex-col xl:flex-row sm:flex-col">
           <div className="mb-6  bg-blue-50 p-4 rounded-lg shadow-lg md:w-full md:text-base xl:w-1/4 ">
             {/* Table-like structure using ul and li */}
             <ul className={styles.metrics}>
